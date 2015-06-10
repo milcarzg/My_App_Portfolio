@@ -15,58 +15,58 @@
     <Button
         style="@style/button_light"
         android:text="@string/media_streamer"
-        android:id="@+id/button"
+        android:id="@+id/btn_spotify"
         android:layout_below="@+id/textView"
-        android:layout_alignRight="@+id/button6"
-        android:layout_alignEnd="@+id/button6"
-        android:layout_alignLeft="@+id/button6"
-        android:layout_alignStart="@+id/button6" />
+        android:layout_alignRight="@+id/btn_capstone"
+        android:layout_alignEnd="@+id/btn_capstone"
+        android:layout_alignLeft="@+id/btn_capstone"
+        android:layout_alignStart="@+id/btn_capstone" />
 
     <Button
         style="@style/button_light"
         android:text="@string/super_duo1"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button" />
+        android:id="@+id/btn_duo1"
+        android:layout_below="@+id/btn_spotify"
+        android:layout_alignRight="@+id/btn_capstone"
+        android:layout_alignEnd="@+id/btn_capstone"
+        android:layout_alignLeft="@+id/btn_capstone"
+        android:layout_alignStart="@+id/btn_capstone" />
 
     <Button
         style="@style/button_light"
         android:text="@string/super_duo2"
-        android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_alignRight="@+id/button2"
-        android:layout_alignEnd="@+id/button2" />
+        android:id="@+id/btn_dou2"
+        android:layout_below="@+id/btn_duo1"
+        android:layout_alignRight="@+id/btn_capstone"
+        android:layout_alignEnd="@+id/btn_capstone"
+        android:layout_alignLeft="@+id/btn_capstone"
+        android:layout_alignStart="@+id/btn_capstone" />
 
     <Button
         style="@style/button_light"
         android:text="@string/ant_terminator"
-        android:id="@+id/button4"
-        android:layout_below="@+id/button3"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:id="@+id/btn_ant"
+        android:layout_below="@+id/btn_dou2"
+        android:layout_alignRight="@+id/btn_capstone"
+        android:layout_alignEnd="@+id/btn_capstone"
+        android:layout_alignLeft="@+id/btn_capstone"
+        android:layout_alignStart="@+id/btn_capstone" />
 
     <Button
         style="@style/button_light"
         android:text="@string/materialize"
-        android:id="@+id/button5"
-        android:layout_below="@+id/button4"
-        android:layout_alignRight="@+id/button6"
-        android:layout_alignEnd="@+id/button6"
-        android:layout_alignLeft="@+id/button6"
-        android:layout_alignStart="@+id/button6" />
+        android:id="@+id/btn_materialize"
+        android:layout_below="@+id/btn_ant"
+        android:layout_alignRight="@+id/btn_capstone"
+        android:layout_alignEnd="@+id/btn_capstone"
+        android:layout_alignLeft="@+id/btn_capstone"
+        android:layout_alignStart="@+id/btn_capstone" />
 
     <Button
         style="@style/button_dark"
         android:text="@string/capstone"
-        android:id="@+id/button6"
-        android:layout_below="@+id/button5"
+        android:id="@+id/btn_capstone"
+        android:layout_below="@+id/btn_materialize"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
